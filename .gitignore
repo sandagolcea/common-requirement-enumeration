@@ -27,3 +27,9 @@ www/
 .DS_Store
 yarn-error.log
 coverage/
+
+# private to me
+cres/
+"cres/Secure User Management.yaml"
+"cres/secure communication.yaml"
+*.yaml
