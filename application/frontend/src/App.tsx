@@ -9,10 +9,7 @@ import { MainContentArea } from './scaffolding';
 
 const queryClient = new QueryClient();
 
-interface IAppProps {}
-
-const App: FunctionComponent<IAppProps> = () => {
-  return (
+const App = () => (
     <div className="app">
       <QueryClientProvider client={queryClient}>
         <BrowserRouter>
@@ -22,6 +19,5 @@ const App: FunctionComponent<IAppProps> = () => {
       </QueryClientProvider>
     </div>
   );
-};
 
 export default App;
